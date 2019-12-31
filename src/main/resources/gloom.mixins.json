@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "xyz.onblock.gloom.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CommandManagerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "gloomy_lit",
+  "version": "${version}",
+
+  "name": "GloomyLit",
+  "description": "Invisible light sources for your Fabric client/server!",
+  "authors": [
+    "CODY_AI"
+  ],
+  "contact": {
+    "homepage": "https://onblock.xyz/",
+    "sources": "https://github.com/OnBlock/GloomyLit"
+  },
+
+  "license": "GPL-3.0",
+  "icon": "assets/gloomylit/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "xyz.onblock.gloom.Gloomy"
+    ]
+  },
+  "mixins": [
+    "gloom.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {
+  }
+}
