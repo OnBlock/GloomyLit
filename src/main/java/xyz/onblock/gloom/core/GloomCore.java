@@ -22,7 +22,7 @@ public class GloomCore {
         provider.updateSectionStatus(pos, true);
 
         world.getChunkManager().getLightingProvider().updateSectionStatus(ChunkSectionPos.from(pos), true);
-        
+
     }
 
 }
