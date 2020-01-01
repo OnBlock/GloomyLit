@@ -1,0 +1,7 @@
+[16:03:24] [main/INFO]: Loading for game Minecraft 1.15.1
+[16:03:24] [main/INFO]: [FabricLoader] Loading 3 mods: minecraft@1.15.1, fabricloader@0.7.3+build.176, gloomy_lit@1.0-SNAPSHOT
+[16:03:24] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Users/ASUS/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.8+build.17/cc6180761b29e6a28465baaf5c9a737592f008ee/sponge-mixin-0.8+build.17.jar Service=Knot/Fabric Env=SERVER
+[16:03:25] [main/INFO]: Loaded Fabric development mappings for mixin remapper!
+[16:03:25] [main/ERROR]: Failed to load properties from file: server.properties
+[16:03:25] [main/WARN]: Failed to load eula.txt
+[16:03:25] [main/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.

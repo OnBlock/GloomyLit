@@ -3,9 +3,12 @@
   "package": "xyz.onblock.gloom.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "CommandManagerMixin"
+  ],
+  "server": [
+    "server.ServerCommandOutputMixin"
   ],
   "client": [
+    "client.IntegratedServerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "xyz.onblock.gloom.Gloomy"
+    ],
+    "client": [
+      "xyz.onblock.gloom.client.GloomClientMod"
     ]
   },
   "mixins": [
