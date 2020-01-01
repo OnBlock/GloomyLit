@@ -1,13 +1,13 @@
 package xyz.onblock.gloom;
 
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.SharedConstants;
 import net.minecraft.server.MinecraftServer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.message.Message;
 import org.apache.logging.log4j.message.MessageFactory;
 import org.apache.logging.log4j.message.SimpleMessage;
-import xyz.onblock.gloom.server.GloomCommand;
 import xyz.onblock.gloom.server.GloomServerMod;
 
 public class Gloomy implements ModInitializer {
@@ -20,6 +20,9 @@ public class Gloomy implements ModInitializer {
 	public void onInitialize() {
 		INSTANCE = this;
 		LOGGER.info("Running GloomyLit!");
+
+		//Development environment
+		SharedConstants.isDevelopment = true;
 	}
 
 	public static Gloomy getInstance() {

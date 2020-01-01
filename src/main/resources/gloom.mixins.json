@@ -3,6 +3,7 @@
   "package": "xyz.onblock.gloom.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "accessor.LightingProviderAccessor"
   ],
   "server": [
     "server.ServerCommandOutputMixin"
